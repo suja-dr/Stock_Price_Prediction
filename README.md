@@ -19,9 +19,13 @@ This project predicts the stock price based on inputs like company name, ticker 
 ## 📁 Project Structure
 Stock_Price_Prediction/
 │
+
 ├── dataset/
+
 │ └── EW-MAX.csv # Dataset used for training/visualization
+
 │
+
 ├── model/
 │ └── Stock_Price_Prediction.pkl # Trained machine learning model
 │

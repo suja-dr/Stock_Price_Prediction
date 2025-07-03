@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Price Prediction Result</title>
+    <style>
+        body {
+            background-image: url('https://static.vecteezy.com/system/resources/previews/022/906/675/non_2x/stock-market-trading-graph-in-red-color-as-economy-3d-illustration-background-trading-trends-and-economic-development-free-photo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 30px 40px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            font-size: 24px;
+            color: #222;
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        .price {
+            font-size: 28px;
+            font-weight: bold;
+            color: #0a7b16;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background-color: #6200ea;
+            color: #fff;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #4b00b2;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>📊 Stock Price Prediction Result</h1>
+    <h2>Predicted Stock Price for <strong>{{ company }}</strong> ({{ ticker }}) is:</h2>
+    <div class="price">₹ {{ prediction }}</div>
+    
+    <a href="/" class="btn"> Predict Another</a>
+</div>
+</body>
+</html>

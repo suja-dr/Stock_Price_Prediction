@@ -16,11 +16,11 @@ This project predicts the stock price based on inputs like company name, ticker 
 - **Machine Learning**: Trained model stored as `Stock_Price_Prediction.pkl`
 
 
-## 📁 Project Structure (In visual Studio)
+## 📁 Project Structure (In Visual Studio)
 
-Stock_Price_Prediction/
+Create Folder Stock_Price_Prediction/
 
-│
+│ (in visual studio)
 
 ├── dataset/
 

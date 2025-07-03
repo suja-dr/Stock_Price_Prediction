@@ -17,7 +17,9 @@ This project predicts the stock price based on inputs like company name, ticker 
 
 
 ## 📁 Project Structure
+
 Stock_Price_Prediction/
+
 │
 
 ├── dataset/
@@ -27,15 +29,25 @@ Stock_Price_Prediction/
 │
 
 ├── model/
+
 │ └── Stock_Price_Prediction.pkl # Trained machine learning model
+
 │
+
 ├── templates/
+
 │ ├── index.html # Input form for user
+
 │ └── result.html # Result display page
+
 │
+
 ├── app.py # Flask web application
+
 ├── Stock_Price_Prediction.ipynb # Google colab (model training)
+
 └── README.md # Project documentation
+
 
 ## 🧪 Input Fields
             -->Company Name
